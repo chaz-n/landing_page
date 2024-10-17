@@ -21,7 +21,6 @@ a {
     padding: 8px;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .header-list {
@@ -88,7 +87,7 @@ a {
 }
 
 .info-container {
-    height: 400px;
+    min-height: 400px;
     font-family: Roboto, sans-serif;
     color: #1f2937;
 }
@@ -121,23 +120,23 @@ a {
 }
 
 .quote-container {
-    height: 400px;
+    display: flex;
+    min-height: 400px;
     background-color: #e5e7eb;
     font-family: Roboto, sans-serif;
+    justify-content: center;
+    
 }
 
 .quote-elements {
-    margin-left: 20%;
-    margin-right: 20%;
+    max-width: 1000px;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    margin: 100px;
-    justify-content: center;
-    align-items: center;
+    margin: 100px;   
     margin-bottom: 2px;
 }
 
@@ -145,4 +144,42 @@ a {
     text-align: right;
     font-weight: bold;
     font-size: 20px;
+}
+
+.call-to-action-container {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: #3883f6;
+    padding: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 100px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.call-to-action-element {
+
+}
+    
+
+.call-to-action-subtext {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.cta-btn {
+    border-style: solid;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
